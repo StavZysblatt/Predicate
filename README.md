@@ -18,7 +18,11 @@ BiocatchPredicate/
 1. resolver.py # Resolves nested feature paths
 2. predicate.py # Main class to evaluate predicates
 3. operations/ 
-  a. base.py # Base Operation class
-  b. binary.py # Binary operations
-  c. unary.py # Unary operations
-  d. group.py # Logical group operations
+
+    a. base.py # Base Operation class
+
+    b. binary.py # Binary operations
+
+    c. unary.py # Unary operations
+
+    d. group.py # Logical group operations
