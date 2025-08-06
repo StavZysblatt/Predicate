@@ -14,10 +14,11 @@ The system supports:
 ## Project Structure
 
 BiocatchPredicate/
-├── resolver.py # Resolves nested feature paths
-├── predicate.py # Main class to evaluate predicates
-├── operations/
-│   ├── base.py # Base Operation class and dispatcher
-│   ├── binary.py # Binary operations
-│   ├── unary.py # Unary operations
-│   └── group.py # Logical group operations
+
+1. resolver.py # Resolves nested feature paths
+2. predicate.py # Main class to evaluate predicates
+3. operations/ 
+  a. base.py # Base Operation class
+  b. binary.py # Binary operations
+  c. unary.py # Unary operations
+  d. group.py # Logical group operations
