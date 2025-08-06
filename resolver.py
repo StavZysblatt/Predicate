@@ -24,12 +24,3 @@ def resolve_feature_path(root: object, path: str) -> Any:
 
     return current
 
-obj = {
-    "x": {
-        "y": SimpleNamespace(z=123)
-    }
-}
-
-print(resolve_feature_path(obj, ".x.y.z"))
-
-
