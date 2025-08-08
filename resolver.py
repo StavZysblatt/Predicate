@@ -1,5 +1,5 @@
 from typing import Any
-from types import SimpleNamespace
+
 
 def resolve_feature_path(root: object, path: str) -> Any:
     if not path:
